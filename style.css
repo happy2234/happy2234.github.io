@@ -3,8 +3,8 @@
 /* Global styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark gray text */
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -21,8 +21,8 @@ a:hover {
 
 /* Header styles */
 header {
-    background-color: #007bff;
-    color: #fff;
+    background-color: #0056b3; /* Dark blue header */
+    color: #fff; /* White text */
     padding: 20px;
     text-align: center;
 }
@@ -50,8 +50,8 @@ h2 {
 
 /* Footer styles */
 footer {
-    background-color: #007bff;
-    color: #fff;
+    background-color: #0056b3; /* Dark blue footer */
+    color: #fff; /* White text */
     padding: 10px 20px;
     text-align: center;
     position: fixed;
