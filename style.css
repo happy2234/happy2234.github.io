@@ -1,58 +1,70 @@
-/* styles.css */
-
-/* Global styles */
 body {
-    background-image: url(https://as1.ftcdn.net/v2/jpg/05/71/10/48/1000_F_571104845_q7EGbrDc2Q0a3X7geBgB1XAiAA3islFk.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
-a {
-    color: #dc3545; /* Red color for links */
-    text-decoration: none; /* Remove underline from links */
-}
-
-a:hover {
-    text-decoration: underline; /* Add underline on hover */
-}
-
-/* Header styles */
 header {
-    background-color: #0056b3; /* Dark blue header */
-    color: #fff; /* White text */
-    padding: 20px;
+    background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fGxhbmRzY2FwZXxlbnwwfHx8fDE2MTk1Mzg3NTA&ixlib=rb-1.2.1&q=80&w=1200') no-repeat center center/cover;
+    color: white;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content {
     text-align: center;
 }
 
-h1 {
-    margin-bottom: 5px;
+header h1 {
+    margin: 0;
+    font-size: 3em;
 }
 
-p {
-    margin-bottom: 10px;
+header p {
+    margin: 10px 0 0;
+    font-size: 1.5em;
 }
 
-/* Education section styles */
-#education {
+section {
     padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
+    color: #333;
     margin-bottom: 10px;
 }
 
-.education-item {
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li {
+    background: #e4e4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.experience-item,
+.project-item {
     margin-bottom: 20px;
 }
 
-/* Footer styles */
+.contact p {
+    margin: 10px 0;
+}
+
 footer {
-    background-color: #0056b3; /* Dark blue footer */
-    color: #fff; /* White text */
-    padding: 10px 20px;
     text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    padding: 10px;
+    background: #333;
+    color: white;
 }
