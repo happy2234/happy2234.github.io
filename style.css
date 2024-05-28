@@ -1,44 +1,54 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #121212;
+    color: #FFFFFF;
 }
 
 header {
-    background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fGxhbmRzY2FwZXxlbnwwfHx8fDE2MTk1Mzg3NTA&ixlib=rb-1.2.1&q=80&w=1200') no-repeat center center/cover;
+    background: linear-gradient(135deg, #1f4037, #99f2c8);
     color: white;
-    height: 400px;
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .header-content {
-    text-align: center;
+    max-width: 800px;
 }
 
 header h1 {
     margin: 0;
     font-size: 3em;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 header p {
     margin: 10px 0 0;
-    font-size: 1.5em;
+    font-size: 1.2em;
+    font-weight: 300;
 }
 
 section {
     padding: 20px;
-    margin: 20px;
-    background-color: white;
+    margin: 20px auto;
+    background-color: #1E1E1E;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    max-width: 800px;
 }
 
 h2 {
-    color: #333;
+    color: #99f2c8;
     margin-bottom: 10px;
+    border-bottom: 2px solid #99f2c8;
+    padding-bottom: 5px;
+    text-transform: uppercase;
 }
 
 .skills ul {
@@ -47,10 +57,12 @@ h2 {
 }
 
 .skills ul li {
-    background: #e4e4f4;
+    background: #333;
     margin: 5px 0;
     padding: 10px;
     border-radius: 4px;
+    color: #99f2c8;
+    font-weight: 500;
 }
 
 .experience-item,
@@ -60,11 +72,21 @@ h2 {
 
 .contact p {
     margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.contact a {
+    color: #99f2c8;
+    text-decoration: none;
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background: #333;
+    background: #1f4037;
     color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
 }
